@@ -1,0 +1,19 @@
+{
+  "name": "wesleycsv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --watch index.js",
+    "dev": "nodemon --watch ./*"
+  },
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
